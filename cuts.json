@@ -251,7 +251,7 @@
 },
 {
 "i": 25,
-"clip": "DETAIL-uc46f",
+"clip": "DETAIL-uf926",
 "at": 69.92,
 "tc": "1:09.92",
 "bars": 0.5,
@@ -271,22 +271,22 @@
 },
 {
 "i": 27,
-"clip": "RIG-WIDE-u8bf9",
+"clip": "RIG-WIDE-03",
 "at": 72.8,
 "tc": "1:12.80",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 0.2,
+"ss": 4.12,
 "section": "CHORUS 1 \u2014 the pull"
 },
 {
 "i": 28,
-"clip": "HIM-DECK-u9e9b",
+"clip": "HIM-DECK-uefdb",
 "at": 74.24,
 "tc": "1:14.24",
 "bars": 1.0,
 "secs": 2.88,
-"ss": 2.85,
+"ss": 4.1,
 "section": "CHORUS 1 \u2014 the pull"
 },
 {
@@ -351,7 +351,7 @@
 },
 {
 "i": 35,
-"clip": "DETAIL-uf926",
+"clip": "DETAIL-01",
 "at": 94.39,
 "tc": "1:34.39",
 "bars": 1.0,
@@ -381,12 +381,12 @@
 },
 {
 "i": 38,
-"clip": "RIG-WIDE-ubd12",
+"clip": "RIG-WIDE-06",
 "at": 103.02,
 "tc": "1:43.02",
 "bars": 1.0,
 "secs": 2.88,
-"ss": 0.2,
+"ss": 3.41,
 "section": "pre 2 \u2014 three weeks"
 },
 {
@@ -411,12 +411,12 @@
 },
 {
 "i": 41,
-"clip": "HIM-DECK-udcaf",
+"clip": "HIM-DECK-u72e3",
 "at": 108.77,
 "tc": "1:48.77",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 3.51,
+"ss": 3.23,
 "section": "CHORUS 2 \u2014 the weather breaks"
 },
 {
@@ -431,12 +431,12 @@
 },
 {
 "i": 43,
-"clip": "DETAIL-01",
+"clip": "DETAIL-03",
 "at": 113.09,
 "tc": "1:53.09",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 0.2,
+"ss": 4.55,
 "section": "CHORUS 2 \u2014 the weather breaks"
 },
 {
@@ -461,12 +461,12 @@
 },
 {
 "i": 46,
-"clip": "HIM-DECK-uefdb",
+"clip": "HIM-DECK-uae5b",
 "at": 117.41,
 "tc": "1:57.41",
 "bars": 1.0,
 "secs": 2.88,
-"ss": 4.1,
+"ss": 2.7,
 "section": "CHORUS 2 \u2014 the weather breaks"
 },
 {
@@ -481,12 +481,12 @@
 },
 {
 "i": 48,
-"clip": "DETAIL-03",
+"clip": "DETAIL-03x",
 "at": 121.72,
 "tc": "2:01.72",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 4.55,
+"ss": 6.28,
 "section": "CHORUS 2 \u2014 the weather breaks"
 },
 {
@@ -511,12 +511,12 @@
 },
 {
 "i": 51,
-"clip": "HIM-DECK-u72e3",
+"clip": "HIM-DECK-08",
 "at": 127.48,
 "tc": "2:07.48",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 3.23,
+"ss": 3.86,
 "section": "CHORUS 2 \u2014 the weather breaks"
 },
 {
@@ -531,12 +531,12 @@
 },
 {
 "i": 53,
-"clip": "DETAIL-03x",
+"clip": "DETAIL-uba9c",
 "at": 130.36,
 "tc": "2:10.36",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 6.28,
+"ss": 3.18,
 "section": "CHORUS 2 \u2014 the weather breaks"
 },
 {
@@ -551,7 +551,7 @@
 },
 {
 "i": 55,
-"clip": "HER-DECK-ua6c2",
+"clip": "HER-DECK-ud065",
 "at": 134.67,
 "tc": "2:14.67",
 "bars": 0.5,
@@ -561,12 +561,12 @@
 },
 {
 "i": 56,
-"clip": "HIM-DECK-uae5b",
+"clip": "HIM-DECK-uefdb",
 "at": 136.11,
 "tc": "2:16.11",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 3.23,
+"ss": 5.69,
 "section": "CHORUS 2 \u2014 the weather breaks"
 },
 {
@@ -581,12 +581,12 @@
 },
 {
 "i": 58,
-"clip": "DETAIL-uba9c",
+"clip": "DETAIL-uc374",
 "at": 138.99,
 "tc": "2:18.99",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 3.18,
+"ss": 3.41,
 "section": "CHORUS 2 \u2014 the weather breaks"
 },
 {
@@ -601,12 +601,12 @@
 },
 {
 "i": 60,
-"clip": "RIG-WIDE-03",
+"clip": "RIG-WIDE-08",
 "at": 146.18,
 "tc": "2:26.18",
 "bars": 2.0,
 "secs": 5.76,
-"ss": 4.12,
+"ss": 1.74,
 "section": "BREAKDOWN \u2014 under the surface"
 },
 {
@@ -621,17 +621,17 @@
 },
 {
 "i": 62,
-"clip": "HIM-DECK-08",
+"clip": "HIM-DECK-u72e3",
 "at": 153.38,
 "tc": "2:33.38",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 3.86,
+"ss": 6.27,
 "section": "BRIDGE \u2014 the storm, hold the line"
 },
 {
 "i": 63,
-"clip": "HER-DECK-ud065",
+"clip": "HER-DECK-ue4ac",
 "at": 154.82,
 "tc": "2:34.82",
 "bars": 0.5,
@@ -651,22 +651,22 @@
 },
 {
 "i": 65,
-"clip": "DETAIL-uc374",
+"clip": "DETAIL-02x",
 "at": 157.69,
 "tc": "2:37.69",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 3.41,
+"ss": 3.23,
 "section": "BRIDGE \u2014 the storm, hold the line"
 },
 {
 "i": 66,
-"clip": "RIG-WIDE-06",
+"clip": "RIG-WIDE-u93b1",
 "at": 159.13,
 "tc": "2:39.13",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 3.41,
+"ss": 0.2,
 "section": "BRIDGE \u2014 the storm, hold the line"
 },
 {
@@ -681,22 +681,22 @@
 },
 {
 "i": 68,
-"clip": "HIM-DECK-u9e9b",
+"clip": "HIM-DECK-uae5b",
 "at": 162.01,
 "tc": "2:42.01",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 3.7,
+"ss": 6.27,
 "section": "BRIDGE \u2014 the storm, hold the line"
 },
 {
 "i": 69,
-"clip": "HER-DECK-ue4ac",
+"clip": "HER-DECK-07",
 "at": 163.45,
 "tc": "2:43.45",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 0.2,
+"ss": 2.6,
 "section": "BRIDGE \u2014 the storm, hold the line"
 },
 {
@@ -711,7 +711,7 @@
 },
 {
 "i": 71,
-"clip": "DETAIL-02x",
+"clip": "DETAIL-04",
 "at": 166.33,
 "tc": "2:46.33",
 "bars": 0.5,
@@ -721,12 +721,12 @@
 },
 {
 "i": 72,
-"clip": "RIG-WIDE-08",
+"clip": "RIG-WIDE-01",
 "at": 167.77,
 "tc": "2:47.77",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 1.74,
+"ss": 3.23,
 "section": "BRIDGE \u2014 the storm, hold the line"
 },
 {
@@ -741,22 +741,22 @@
 },
 {
 "i": 74,
-"clip": "HIM-DECK-udcaf",
+"clip": "HIM-DECK-08",
 "at": 170.64,
 "tc": "2:50.64",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 5.32,
+"ss": 4.54,
 "section": "BRIDGE \u2014 the storm, hold the line"
 },
 {
 "i": 75,
-"clip": "RIG-WIDE-u93b1",
+"clip": "RIG-WIDE-04",
 "at": 172.08,
 "tc": "2:52.08",
 "bars": 2,
 "secs": 5.76,
-"ss": 0.2,
+"ss": 1.64,
 "section": "drop-out \u2014 one flash"
 },
 {
@@ -771,12 +771,12 @@
 },
 {
 "i": 77,
-"clip": "HER-DECK-07",
+"clip": "HER-DECK-08",
 "at": 179.28,
 "tc": "2:59.28",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 2.6,
+"ss": 3.97,
 "section": "CHORUS 3 \u2014 clearing, everybody watching"
 },
 {
@@ -821,12 +821,12 @@
 },
 {
 "i": 82,
-"clip": "HER-DECK-08",
+"clip": "HER-DECK-09",
 "at": 187.91,
 "tc": "3:07.91",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 3.97,
+"ss": 4.53,
 "section": "CHORUS 3 \u2014 clearing, everybody watching"
 },
 {
@@ -871,12 +871,12 @@
 },
 {
 "i": 87,
-"clip": "HER-DECK-09",
+"clip": "HER-DECK-11",
 "at": 196.54,
 "tc": "3:16.54",
 "bars": 1.0,
 "secs": 2.88,
-"ss": 4.53,
+"ss": 2.49,
 "section": "CHORUS 3 \u2014 clearing, everybody watching"
 },
 {
@@ -921,12 +921,12 @@
 },
 {
 "i": 92,
-"clip": "HER-DECK-11",
+"clip": "HER-DECK-u368b",
 "at": 206.62,
 "tc": "3:26.62",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 2.49,
+"ss": 3.76,
 "section": "CHORUS 3 \u2014 clearing, everybody watching"
 },
 {
@@ -1001,12 +1001,12 @@
 },
 {
 "i": 100,
-"clip": "HER-DECK-u368b",
+"clip": "HER-DECK-u6d23",
 "at": 226.76,
 "tc": "3:46.76",
 "bars": 1.0,
 "secs": 2.88,
-"ss": 3.76,
+"ss": 4.99,
 "section": "OUTRO \u2014 the helipad, the money"
 },
 {
@@ -1021,12 +1021,12 @@
 },
 {
 "i": 102,
-"clip": "HER-DECK-u6d23",
+"clip": "HER-DECK-u9a5c",
 "at": 232.52,
 "tc": "3:52.52",
 "bars": 1.0,
 "secs": 2.88,
-"ss": 4.99,
+"ss": 4.55,
 "section": "OUTRO \u2014 the helipad, the money"
 },
 {
@@ -1041,7 +1041,7 @@
 },
 {
 "i": 104,
-"clip": "RIG-WIDE-01",
+"clip": "RIG-WIDE-05x",
 "at": 238.27,
 "tc": "3:58.27",
 "bars": 2.0,
