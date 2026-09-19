@@ -1,0 +1,509 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>Two Lights — Review</title>
+<meta name="robots" content="noindex, nofollow" />
+<meta name="referrer" content="no-referrer" />
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+<style>
+  :root{
+    --bg:#0f1420; --card:#161c2b; --border:#252d40; --input:#2b3347;
+    --fg:#eef1f7; --muted:#8b93a7; --primary:#c8a86a; --primary-fg:#12161f;
+  }
+  *{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    background:var(--bg); color:var(--fg);
+    font-family:'Outfit',-apple-system,BlinkMacSystemFont,'Segoe UI',sans-serif;
+    -webkit-font-smoothing:antialiased;
+  }
+  main{padding:56px 16px}
+  @media(min-width:640px){ main{padding:80px 24px} }
+  .wrap{max-width:700px;margin:0 auto;width:100%}
+  header{text-align:center}
+  h1{font-size:2.25rem;font-weight:700;letter-spacing:-0.03em;margin:0}
+  @media(min-width:640px){ h1{font-size:3rem} }
+  .sub{margin-top:12px;color:var(--muted);font-size:.875rem}
+  @media(min-width:640px){ .sub{font-size:1rem} }
+  section{margin-top:24px;border:1px solid var(--border);background:var(--card);border-radius:16px;padding:20px}
+  @media(min-width:640px){ section{padding:28px} }
+  section.first{margin-top:48px}
+  .step{font-size:.75rem;font-weight:600;letter-spacing:.2em;color:var(--primary);margin:0}
+  h2{margin:6px 0 0;font-size:1.25rem;font-weight:700;letter-spacing:-0.01em}
+  @media(min-width:640px){ h2{font-size:1.5rem} }
+  video{margin-top:20px;width:100%;aspect-ratio:16/9;background:#000;border-radius:12px;display:block}
+  .now{margin-top:16px;display:flex;align-items:center;gap:10px}
+  .dot{width:8px;height:8px;border-radius:999px;background:var(--primary);display:inline-block}
+  .time{font-size:.875rem;color:var(--muted);font-variant-numeric:tabular-nums}
+  .hint{margin-top:8px;color:var(--muted);font-size:.875rem;line-height:1.6}
+  textarea,input{
+    width:100%;border:1px solid var(--input);background:#1b2233;color:var(--fg);
+    border-radius:12px;padding:12px 16px;font:inherit;outline:none;
+  }
+  textarea{margin-top:20px;resize:vertical;min-height:104px;font-size:1rem}
+  textarea::placeholder,input::placeholder{color:var(--muted)}
+  textarea:focus,input:focus{border-color:var(--primary)}
+  .row{margin-top:12px;display:flex;flex-direction:column;gap:12px}
+  @media(min-width:640px){ .row{flex-direction:row;align-items:center;justify-content:space-between} input.name{width:192px} }
+  button{font:inherit;cursor:pointer;border:none;border-radius:12px}
+  .pin{background:var(--primary);color:var(--primary-fg);padding:12px 24px;font-size:1rem;font-weight:600;width:100%}
+  @media(min-width:640px){ .pin{width:auto} }
+  .pin:disabled{opacity:.4;cursor:default}
+  ul{list-style:none;margin:28px 0 0;padding:0;border-top:1px solid var(--border)}
+  li{display:flex;align-items:flex-start;gap:12px;padding:16px 0;border-bottom:1px solid var(--border)}
+  .tc{background:var(--primary);color:var(--primary-fg);border-radius:999px;padding:4px 12px;
+      font-size:.75rem;font-weight:600;font-variant-numeric:tabular-nums;flex-shrink:0;margin-top:2px}
+  .body{flex:1;white-space:pre-wrap;line-height:1.6;font-size:1rem;margin:0}
+  .who{margin:4px 0 0;font-size:.75rem;color:var(--muted)}
+  .del{background:none;color:var(--muted);padding:4px 8px;font-size:.875rem;flex-shrink:0}
+  .del:hover{color:var(--fg)}
+  .copy{margin-top:24px;background:none;border:1px solid var(--border);color:var(--muted);
+        padding:12px 24px;font-size:.875rem;width:100%}
+  @media(min-width:640px){ .copy{width:auto} }
+  .copy:hover{color:var(--fg)}
+  .copy:disabled{opacity:.4;cursor:default}
+  .empty{color:var(--muted);font-size:.875rem;margin:28px 0 0}
+  .err{margin-top:12px;color:#e0806f;font-size:.8125rem;display:none}
+
+
+  /* ---- rearrange ---- */
+  .robar{display:flex;flex-wrap:wrap;gap:10px;align-items:center;margin:16px 0 4px}
+  .robar .lifted{color:var(--primary);font-weight:600;font-size:.875rem}
+  .roghost{border:none;background:none;color:var(--muted);font-size:.875rem;padding:4px 8px;text-decoration:underline}
+  .roghost:hover{color:var(--fg)}
+  .rosec{margin:22px 0 8px;font-size:.75rem;font-weight:600;letter-spacing:.18em;
+    text-transform:uppercase;color:var(--muted)}
+  .rocut{display:flex;align-items:center;gap:12px;padding:8px;border:1px solid var(--border);
+    border-radius:12px;background:#1b2233;margin:6px 0;cursor:pointer;text-align:left;width:100%}
+  .rocut:hover{border-color:var(--primary)}
+  .rocut img{width:88px;height:50px;object-fit:cover;border-radius:7px;flex-shrink:0;background:#0d1220}
+  .rocut .ronm{font-size:.875rem;font-weight:600}
+  .rocut .romt{font-size:.75rem;color:var(--muted);font-variant-numeric:tabular-nums;margin-top:2px}
+  .rocut.up{border-color:var(--primary);box-shadow:0 0 0 1px var(--primary);opacity:.55}
+  .rocut.moved{border-color:#6ea8fe}
+  .rocut.moved .ronm:after{content:" · moved";color:#6ea8fe;font-weight:500}
+  .ronudge{margin-left:auto;display:flex;gap:4px;flex-shrink:0}
+  .ronudge button{background:none;border:1px solid var(--border);color:var(--muted);
+    border-radius:8px;padding:5px 9px;font-size:.8125rem;line-height:1}
+  .ronudge button:hover{color:var(--fg);border-color:var(--primary)}
+  .rodrop{display:block;width:100%;border:1px dashed var(--primary);background:rgba(200,168,106,.09);
+    color:var(--primary);border-radius:10px;padding:9px;margin:6px 0;font-size:.8125rem;font-weight:600}
+  .rodrop:hover{background:rgba(200,168,106,.2)}
+  .rosend{background:var(--primary);color:var(--primary-fg);padding:12px 24px;font-size:1rem;
+    font-weight:600;width:100%;margin-top:18px}
+  .rosend:disabled{opacity:.4}
+
+  /* ---- shot picker ---- */
+  .grid{margin-top:20px;display:grid;gap:12px;grid-template-columns:repeat(2,1fr)}
+  @media(min-width:560px){ .grid{grid-template-columns:repeat(3,1fr)} }
+  .shot{position:relative;border:1px solid var(--border);border-radius:12px;overflow:hidden;
+        background:#0b0f18;cursor:pointer;padding:0;display:block;width:100%;text-align:left;
+        transition:border-color .15s, opacity .15s}
+  .shot:hover{border-color:var(--primary)}
+  .shot img{display:block;width:100%;aspect-ratio:16/9;object-fit:cover}
+  .shot .meta{padding:8px 10px 10px}
+  .shot .mtc{font-size:.75rem;font-weight:600;color:var(--primary);font-variant-numeric:tabular-nums}
+  .shot .muse{font-size:.6875rem;color:var(--muted);margin-top:2px}
+  /* Must stay clickable — this is the cut button. pointer-events:none here silently
+     broke it: clicks fell through to the card and only jumped the video. */
+  .shot .x{position:absolute;top:6px;right:6px;width:38px;height:38px;border-radius:999px;
+           background:rgba(10,14,22,.86);color:#fff;font-size:1rem;line-height:38px;
+           text-align:center;cursor:pointer;border:1px solid rgba(255,255,255,.16);
+           transition:background .15s,transform .1s}
+  .shot .x:hover{background:#a3423a;transform:scale(1.08)}
+  .shot .x:active{transform:scale(.94)}
+  .shot.out{opacity:.42;border-color:#7d3b34}
+  .shot.out img{filter:grayscale(1)}
+  .shot.out .x{background:#a3423a}
+  .shot.out .mtc{color:#e0806f;text-decoration:line-through}
+  .cutcount{margin-top:16px;font-size:.875rem;color:var(--muted)}
+  .cutcount b{color:var(--fg)}
+</style>
+</head>
+<body>
+<main>
+  <div class="wrap">
+    <header>
+      <h1>Two Lights</h1>
+      <p class="sub">Midnight City · demo cut — watch, comment, cut, rearrange</p>
+      <p class="cutstamp" id="cutstamp" style="margin-top:10px;display:inline-block;padding:6px 14px;border-radius:999px;background:#1b2233;border:1px solid #2b3347;color:#c8a86a;font-size:.8rem;font-weight:600;letter-spacing:.04em">CUT v24 · 18 Sep 13:05 · demo, work in progress</p>
+    </header>
+
+    <section class="first">
+      <p class="step">01</p>
+      <h2>Watch</h2>
+      <video id="v" controls playsinline preload="metadata" poster="poster.jpg?v=c29d9da648" src="two-lights-review.mp4?v=0"></video>
+      <div class="now"><span class="dot"></span><span class="time" id="now">0:00</span></div>
+    </section>
+
+    <section>
+      <p class="step">02</p>
+      <h2>Comments</h2>
+      <p class="hint">Notes are pinned to the exact moment you're watching. Tap a timecode to jump there.</p>
+
+      <textarea id="draft" rows="4" placeholder="Leave a note…" aria-label="Leave a note"></textarea>
+      <div class="row">
+        <input class="name" id="name" placeholder="Your name" aria-label="Your name" />
+        <button class="pin" id="pin" disabled>Pin note at 0:00</button>
+      </div>
+      <p class="err" id="err"></p>
+
+      <div id="list"><p class="empty">Loading notes…</p></div>
+
+      <button class="copy" id="copy" disabled>Copy all notes</button>
+    </section>
+
+    <section>
+      <p class="step">03</p>
+      <h2>Shots</h2>
+      <p class="hint">Every shot in the film, in order. Tap one to jump to it in the video.
+        Tap the ✕ to cut it — it turns red and comes straight back to me. Tap ✕ again to put it back.</p>
+
+      <div class="grid" id="grid"></div>
+      <p class="cutcount" id="cutcount"></p>
+    </section>
+
+    <section>
+      <p class="step">04</p>
+      <h2>Rearrange</h2>
+      <p class="hint">Every cut in the film, in order. Tap one to pick it up, then tap the gold
+        <b>Place here</b> bar where it should go — or nudge it one step with ↑ ↓.
+        The timing never moves: a shot takes over the length of the slot it lands in, so the film
+        stays exactly as long and every cut stays on its beat. Send it and I'll rebuild from your order.</p>
+
+      <div class="robar">
+        <span class="lifted" id="rolift"></span>
+        <button class="roghost" id="rocancel" style="display:none">Cancel</button>
+        <button class="roghost" id="roreset" style="display:none">Undo all moves</button>
+      </div>
+      <div id="rolist"><p class="empty">Loading cuts…</p></div>
+      <button class="rosend" id="rosend" disabled>Send this order to Claude</button>
+      <p class="hint" id="rostatus" style="display:none"></p>
+    </section>
+
+  </div>
+</main>
+
+<script>
+const SB_URL = "https://wakbtackopdrjalteahc.supabase.co";
+const SB_KEY = "sb_publishable_uYPBPl7ktdaVcv1LM-eDZA_daH0dppo";
+const H = { "apikey": SB_KEY, "Content-Type": "application/json" };
+
+const v = document.getElementById("v");
+const nowEl = document.getElementById("now");
+const draft = document.getElementById("draft");
+const nameEl = document.getElementById("name");
+const pin = document.getElementById("pin");
+const list = document.getElementById("list");
+const copyBtn = document.getElementById("copy");
+const errEl = document.getElementById("err");
+let notes = [];
+
+const fmt = t => { const s = Math.max(0, Math.floor(t)); return Math.floor(s/60) + ":" + String(s%60).padStart(2,"0"); };
+const esc = s => s.replace(/[&<>"']/g, c => ({"&":"&amp;","<":"&lt;",">":"&gt;",'"':"&quot;","'":"&#39;"}[c]));
+function showErr(m){ errEl.textContent = m; errEl.style.display = m ? "block" : "none"; }
+
+function tick(){ nowEl.textContent = fmt(v.currentTime); pin.textContent = "Pin note at " + fmt(v.currentTime); }
+v.addEventListener("timeupdate", tick);
+v.addEventListener("seeked", tick);
+
+draft.addEventListener("input", () => { pin.disabled = !draft.value.trim(); });
+
+// A "cut this shot" mark is stored as a note with this author, so it needs no new table
+// and lands in the same place as every other piece of feedback.
+const FILM = "two-lights";
+const KILL_AUTHOR = FILM + "|shot-picker";
+const KILL_PREFIX = "REMOVE SHOT: ";
+let kills = {};       // clip name -> note id
+
+async function load(){
+  try{
+    const r = await fetch(SB_URL + "/rest/v1/notes?select=*&order=seconds.asc&name=like." + encodeURIComponent(FILM + "|*"), { headers: H });
+    if(!r.ok) throw new Error("HTTP " + r.status);
+    const all = await r.json();
+    kills = {};
+    notes = [];
+    for(const n of all){
+      if(n.name === KILL_AUTHOR && (n.body||"").startsWith(KILL_PREFIX)){
+        kills[n.body.slice(KILL_PREFIX.length).trim()] = n.id;   // a removal, not a comment
+      }else{
+        notes.push(n);
+      }
+    }
+    render();
+    paintShots();
+    showErr("");
+  }catch(e){
+    list.innerHTML = '<p class="empty">Could not load notes.</p>';
+    showErr("Couldn't reach the notes server — your note may not save. " + e.message);
+  }
+}
+
+function render(){
+  copyBtn.disabled = notes.length === 0;
+  if(!notes.length){ list.innerHTML = '<p class="empty">No notes yet.</p>'; return; }
+  list.innerHTML = "<ul>" + notes.map(n =>
+    '<li><button class="tc" data-s="' + n.seconds + '">' + esc(n.timecode) + '</button>' +
+    '<div style="flex:1"><p class="body">' + esc(n.body) + '</p>' +
+    (n.name && n.name.split('|')[1] ? '<p class="who">' + esc(n.name.split('|')[1]) + '</p>' : '') + '</div>' +
+    '<button class="del" data-id="' + n.id + '" aria-label="Delete note">✕</button></li>'
+  ).join("") + "</ul>";
+}
+
+list.addEventListener("click", async e => {
+  const t = e.target.closest("button");
+  if(!t) return;
+  if(t.classList.contains("tc")){
+    v.currentTime = Number(t.dataset.s); tick();
+    v.scrollIntoView({ behavior:"smooth", block:"start" });
+  }
+  if(t.classList.contains("del")){
+    const id = t.dataset.id;
+    notes = notes.filter(n => n.id !== id); render();
+    try{ await fetch(SB_URL + "/rest/v1/notes?id=eq." + id, { method:"DELETE", headers: H }); }
+    catch(_){ showErr("Couldn't delete that note on the server."); }
+  }
+});
+
+pin.addEventListener("click", async () => {
+  const body = draft.value.trim();
+  if(!body) return;
+  const at = Math.floor(v.currentTime);
+  v.pause();
+  const who = nameEl.value.trim();
+  try{ localStorage.setItem("reviewer-name", who); }catch(_){}
+  pin.disabled = true;
+  try{
+    const r = await fetch(SB_URL + "/rest/v1/notes", {
+      method: "POST",
+      headers: Object.assign({ Prefer: "return=representation" }, H),
+      body: JSON.stringify({ seconds: at, timecode: fmt(at), body: body, name: FILM + "|" + (who || "") })
+    });
+    if(!r.ok) throw new Error("HTTP " + r.status);
+    draft.value = "";
+    showErr("");
+    await load();
+  }catch(e){
+    showErr("That note did not save — please try again. " + e.message);
+  }
+  pin.disabled = !draft.value.trim();
+});
+
+copyBtn.addEventListener("click", async () => {
+  const text = [...notes].sort((a,b) => a.seconds - b.seconds)
+    .map(n => n.timecode + " — " + n.body).join("\n");
+  const done = () => {
+    copyBtn.textContent = "Copied";
+    showErr("");
+    setTimeout(() => { copyBtn.textContent = "Copy all notes"; }, 2000);
+  };
+  // Preferred path needs a secure context AND user activation; fall back rather than fail.
+  try{ await navigator.clipboard.writeText(text); return done(); }catch(_){}
+  try{
+    const ta = document.createElement("textarea");
+    ta.value = text;
+    ta.setAttribute("readonly","");
+    ta.style.cssText = "position:fixed;top:0;left:0;opacity:0";
+    document.body.appendChild(ta);
+    ta.select(); ta.setSelectionRange(0, text.length);
+    const ok = document.execCommand("copy");
+    document.body.removeChild(ta);
+    if(ok) return done();
+  }catch(_){}
+  // Last resort: put the text on screen, already selected, so it can be copied by hand.
+  let box = document.getElementById("fallbackCopy");
+  if(!box){
+    box = document.createElement("textarea");
+    box.id = "fallbackCopy";
+    box.style.cssText = "margin-top:12px;width:100%;min-height:120px";
+    copyBtn.after(box);
+  }
+  box.value = text; box.select();
+  showErr("Couldn't copy automatically — the notes are selected below, press Cmd+C.");
+});
+
+/* ---------- shot picker ---------- */
+const grid = document.getElementById("grid");
+const cutcount = document.getElementById("cutcount");
+let shots = [];
+
+async function loadShots(){
+  try{
+    const r = await fetch("shots.json", { cache: "no-store" });
+    shots = await r.json();
+    grid.innerHTML = shots.map(s =>
+      '<button class="shot" data-clip="' + esc(s.clip) + '" data-t="' + s.first + '">' +
+        '<img loading="lazy" alt="" src="shots/' + encodeURIComponent(s.clip) + '.jpg">' +
+        '<span class="x">✕</span>' +
+        '<span class="meta"><span class="mtc">' + esc(s.tc) + '</span>' +
+        '<span class="muse">' + s.uses + (s.uses === 1 ? " time" : " times") +
+        " · " + s.secs + "s</span></span>" +
+      '</button>'
+    ).join("");
+    paintShots();
+  }catch(e){
+    grid.innerHTML = '<p class="empty">Could not load the shot list.</p>';
+  }
+}
+
+function paintShots(){
+  if(!shots.length) return;
+  let out = 0;
+  for(const el of grid.querySelectorAll(".shot")){
+    const dead = kills[el.dataset.clip] !== undefined;
+    el.classList.toggle("out", dead);
+    if(dead) out++;
+  }
+  cutcount.innerHTML = out
+    ? "<b>" + out + "</b> of " + shots.length + " shots marked to cut. I'll rebuild the film without them."
+    : shots.length + " shots. None marked to cut.";
+}
+
+grid.addEventListener("click", async e => {
+  const el = e.target.closest(".shot");
+  if(!el) return;
+  const clip = el.dataset.clip;
+  const onX = !!e.target.closest(".x");   // closest(), so a click on anything inside counts
+
+  if(!onX && kills[clip] === undefined){        // tapping the picture jumps to the shot
+    v.currentTime = Number(el.dataset.t); tick();
+    v.scrollIntoView({ behavior:"smooth", block:"start" });
+    return;
+  }
+
+  if(kills[clip] !== undefined){                 // put it back
+    const id = kills[clip];
+    delete kills[clip]; paintShots();
+    try{ await fetch(SB_URL + "/rest/v1/notes?id=eq." + id, { method:"DELETE", headers: H }); }
+    catch(_){ showErr("Couldn't restore that shot on the server."); }
+    return;
+  }
+
+  kills[clip] = "pending"; paintShots();         // cut it
+  const s = shots.find(x => x.clip === clip) || { first:0, tc:"0:00" };
+  try{
+    const r = await fetch(SB_URL + "/rest/v1/notes", {
+      method: "POST",
+      headers: Object.assign({ Prefer: "return=representation" }, H),
+      body: JSON.stringify({ seconds: Math.floor(s.first), timecode: s.tc,
+                             body: KILL_PREFIX + clip, name: KILL_AUTHOR })
+    });
+    if(!r.ok) throw new Error("HTTP " + r.status);
+    kills[clip] = (await r.json())[0].id;
+    showErr("");
+  }catch(err){
+    delete kills[clip];
+    showErr("That didn't save — please try again. " + err.message);
+  }
+  paintShots();
+});
+
+try{ const s = localStorage.getItem("reviewer-name"); if(s) nameEl.value = s; }catch(_){}
+tick();
+loadShots();
+load();
+
+/* ---------- rearrange ---------- */
+const roList=document.getElementById("rolist"), roSend=document.getElementById("rosend"),
+      roLift=document.getElementById("rolift"), roCancel=document.getElementById("rocancel"),
+      roReset=document.getElementById("roreset"), roStatus=document.getElementById("rostatus");
+let cuts=[], order=[], base=[], lifted=null, movedIds=new Set();
+
+async function loadCuts(){
+  try{
+    const r=await fetch("cuts.json",{cache:"no-store"});
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    cuts=await r.json();
+    base=cuts.map(c=>c.i); order=base.slice(); movedIds.clear();
+    paintCuts();
+  }catch(e){ roList.innerHTML='<p class="empty">Could not load the cut list.</p>'; }
+}
+
+/* count what SHE moved, not everything her move pushed along:
+   dragging one cut down shifts four others by a place, and reporting that as "6 moved"
+   is true about positions and false about the edit. */
+function movedCount(){ return movedIds.size; }
+
+function paintCuts(){
+  const n=movedCount();
+  roSend.disabled = n===0;
+  roSend.textContent = n ? "Send this order to Claude ("+n+" cut"+(n===1?"":"s")+" moved)"
+                         : "Send this order to Claude";
+  roReset.style.display = n ? "" : "none";
+  roCancel.style.display = lifted===null ? "none" : "";
+  roLift.textContent = lifted===null ? "" : "Moving "+cuts[lifted].clip+" — tap where it goes";
+
+  let html="", sec=null;
+  for(let pos=0; pos<order.length; pos++){
+    const c=cuts[order[pos]];
+    if(lifted!==null && pos!==order.indexOf(lifted))
+      html+='<button class="rodrop" data-drop="'+pos+'">Place here</button>';
+    if(c.section!==sec){ sec=c.section; html+='<p class="rosec">'+esc(sec||"")+'</p>'; }
+    const isUp = lifted===order[pos];
+    const isMoved = movedIds.has(order[pos]);
+    html+='<div class="rocut'+(isUp?' up':'')+(isMoved&&!isUp?' moved':'')+'" data-pos="'+pos+'">'
+        + '<img src="shots/'+encodeURIComponent(c.clip)+'.jpg" alt="" loading="lazy">'
+        + '<div><div class="ronm">'+esc(c.clip)+'</div>'
+        + '<div class="romt">'+c.tc+' · '+c.secs.toFixed(1)+'s</div></div>'
+        + '<span class="ronudge"><button data-up="'+pos+'">↑</button>'
+        + '<button data-dn="'+pos+'">↓</button></span></div>';
+  }
+  if(lifted!==null) html+='<button class="rodrop" data-drop="'+order.length+'">Place here</button>';
+  roList.innerHTML=html;
+}
+
+roList.addEventListener("click", e => {
+  const up=e.target.closest("[data-up]"), dn=e.target.closest("[data-dn]"),
+        drop=e.target.closest("[data-drop]"), card=e.target.closest("[data-pos]");
+  if(up){ const p=+up.dataset.up; if(p>0){ movedIds.add(order[p]); [order[p-1],order[p]]=[order[p],order[p-1]]; paintCuts(); } return; }
+  if(dn){ const p=+dn.dataset.dn; if(p<order.length-1){ movedIds.add(order[p]); [order[p+1],order[p]]=[order[p],order[p+1]]; paintCuts(); } return; }
+  if(drop){
+    let to=+drop.dataset.drop; const from=order.indexOf(lifted);
+    order.splice(from,1); if(to>from) to--;
+    movedIds.add(lifted); order.splice(to,0,lifted); lifted=null; paintCuts(); return;
+  }
+  if(card){
+    const idx=order[+card.dataset.pos];
+    lifted = (lifted===idx) ? null : idx;
+    paintCuts();
+    if(lifted!==null) roList.scrollIntoView({block:"nearest"});
+  }
+});
+roCancel.addEventListener("click", () => { lifted=null; paintCuts(); });
+roReset.addEventListener("click", () => { order=base.slice(); lifted=null; movedIds.clear(); paintCuts(); });
+
+roSend.addEventListener("click", async () => {
+  const moves=[];
+  for(let pos=0; pos<order.length; pos++){
+    if(!movedIds.has(order[pos])) continue;
+    const c=cuts[order[pos]];
+    const after = pos>0 ? cuts[order[pos-1]].clip : "the very start";
+    const before = pos<order.length-1 ? cuts[order[pos+1]].clip : "the very end";
+    moves.push(c.clip+" (was at "+c.tc+") → now between "+after+" and "+before);
+  }
+  const who=(nameEl.value.trim()||"");
+  const body="REORDER · "+moves.length+" cut(s) moved\n"+moves.join("\n")
+             +"\n\n<<<ORDER\n"+JSON.stringify(order)+"\nORDER>>>";
+  roSend.disabled=true; roStatus.style.display="block"; roStatus.textContent="Sending…";
+  try{
+    const r=await fetch(SB_URL+"/rest/v1/notes",{ method:"POST",
+      headers:Object.assign({Prefer:"return=representation"},H),
+      body:JSON.stringify({seconds:0,timecode:"order",body:body,name:FILM+"|"+who}) });
+    if(!r.ok) throw new Error("HTTP "+r.status);
+    roStatus.textContent="Sent — "+moves.length+" move(s) are with Claude. He'll rebuild and republish here.";
+    base=order.slice(); movedIds.clear(); paintCuts(); roSend.disabled=true;
+    await load();
+  }catch(e){
+    roStatus.textContent="That didn't send — please try again. "+e.message;
+    roSend.disabled=false;
+  }
+});
+loadCuts();
+
+</script>
+</body>
+</html>
