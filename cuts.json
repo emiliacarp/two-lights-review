@@ -41,7 +41,7 @@
 },
 {
 "i": 4,
-"clip": "HIM-DECK-09",
+"clip": "HIM-DECK-01",
 "at": 18.13,
 "tc": "0:18.13",
 "bars": 0.5,
@@ -231,12 +231,12 @@
 },
 {
 "i": 23,
-"clip": "HIM-DECK-05",
+"clip": "HIM-DECK-u72e3",
 "at": 65.61,
 "tc": "1:05.61",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 1.53,
+"ss": 0.2,
 "section": "CHORUS 1 \u2014 the pull"
 },
 {
@@ -281,12 +281,12 @@
 },
 {
 "i": 28,
-"clip": "HIM-DECK-06",
+"clip": "HIM-DECK-uae5b",
 "at": 74.24,
 "tc": "1:14.24",
 "bars": 1.0,
 "secs": 2.88,
-"ss": 5.53,
+"ss": 0.2,
 "section": "CHORUS 1 \u2014 the pull"
 },
 {
@@ -321,7 +321,7 @@
 },
 {
 "i": 32,
-"clip": "HIM-DECK-10",
+"clip": "HIM-DECK-07",
 "at": 85.75,
 "tc": "1:25.75",
 "bars": 1.0,
@@ -411,12 +411,12 @@
 },
 {
 "i": 41,
-"clip": "HIM-DECK-17",
+"clip": "HIM-DECK-05",
 "at": 108.77,
 "tc": "1:48.77",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 1.03,
+"ss": 3.2,
 "section": "CHORUS 2 \u2014 the weather breaks"
 },
 {
@@ -461,12 +461,12 @@
 },
 {
 "i": 46,
-"clip": "HIM-DECK-18",
+"clip": "HIM-DECK-06",
 "at": 117.41,
 "tc": "1:57.41",
 "bars": 1.0,
 "secs": 2.88,
-"ss": 3.28,
+"ss": 5.53,
 "section": "CHORUS 2 \u2014 the weather breaks"
 },
 {
@@ -511,12 +511,12 @@
 },
 {
 "i": 51,
-"clip": "HIM-DECK-02",
+"clip": "HIM-DECK-17",
 "at": 127.48,
 "tc": "2:07.48",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 3.23,
+"ss": 1.03,
 "section": "CHORUS 2 \u2014 the weather breaks"
 },
 {
@@ -561,12 +561,12 @@
 },
 {
 "i": 56,
-"clip": "HIM-DECK-03",
+"clip": "HIM-DECK-18",
 "at": 136.11,
 "tc": "2:16.11",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 2.11,
+"ss": 3.28,
 "section": "CHORUS 2 \u2014 the weather breaks"
 },
 {
@@ -621,12 +621,12 @@
 },
 {
 "i": 62,
-"clip": "HIM-DECK-04",
+"clip": "HIM-DECK-u3f5f",
 "at": 153.38,
 "tc": "2:33.38",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 1.0,
+"ss": 5.43,
 "section": "BRIDGE \u2014 the storm, hold the line"
 },
 {
@@ -681,12 +681,12 @@
 },
 {
 "i": 68,
-"clip": "HIM-DECK-05",
+"clip": "HIM-DECK-uefdb",
 "at": 162.01,
 "tc": "2:42.01",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 4.07,
+"ss": 4.1,
 "section": "BRIDGE \u2014 the storm, hold the line"
 },
 {
@@ -741,12 +741,12 @@
 },
 {
 "i": 74,
-"clip": "HIM-DECK-06",
+"clip": "HIM-DECK-02",
 "at": 170.64,
 "tc": "2:50.64",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 6.59,
+"ss": 3.23,
 "section": "BRIDGE \u2014 the storm, hold the line"
 },
 {
@@ -861,7 +861,7 @@
 },
 {
 "i": 86,
-"clip": "HIM-DECK-11",
+"clip": "HIM-DECK-09",
 "at": 195.1,
 "tc": "3:15.10",
 "bars": 0.5,
@@ -911,7 +911,7 @@
 },
 {
 "i": 91,
-"clip": "HIM-DECK-12",
+"clip": "HIM-DECK-09j",
 "at": 203.74,
 "tc": "3:23.74",
 "bars": 1.0,
@@ -981,7 +981,7 @@
 },
 {
 "i": 98,
-"clip": "HIM-DECK-19",
+"clip": "HIM-DECK-10",
 "at": 223.16,
 "tc": "3:43.16",
 "bars": 0.25,
