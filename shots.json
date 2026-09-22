@@ -1,38 +1,52 @@
 [
 {
-"clip": "HIM-CABIN-01-hd",
+"clip": "DAWN-01-hd",
 "first": 0.0,
 "tc": "0:00.00",
 "uses": 1,
-"secs": 0.7
+"secs": 2.9
 },
 {
-"clip": "DETAIL-02x",
-"first": 0.72,
-"tc": "0:00.72",
-"uses": 2,
-"secs": 6.4
-},
-{
-"clip": "RIG-WIDE-01",
-"first": 5.76,
-"tc": "0:05.76",
-"uses": 2,
-"secs": 7.2
-},
-{
-"clip": "HELI-03x",
-"first": 11.51,
-"tc": "0:11.51",
+"clip": "DAWN-02-hd",
+"first": 2.88,
+"tc": "0:02.88",
 "uses": 1,
-"secs": 4.3
+"secs": 2.2
 },
 {
-"clip": "HIM-DECK-01-hd",
-"first": 15.83,
-"tc": "0:15.83",
+"clip": "DAWN-03-hd",
+"first": 5.04,
+"tc": "0:05.04",
 "uses": 1,
-"secs": 1.4
+"secs": 2.2
+},
+{
+"clip": "DAWN-04-hd",
+"first": 7.19,
+"tc": "0:07.19",
+"uses": 1,
+"secs": 2.9
+},
+{
+"clip": "DAWN-05-hd",
+"first": 10.07,
+"tc": "0:10.07",
+"uses": 1,
+"secs": 2.2
+},
+{
+"clip": "DAWN-06-hd",
+"first": 12.23,
+"tc": "0:12.23",
+"uses": 1,
+"secs": 2.2
+},
+{
+"clip": "HIM-CABIN-01-hd",
+"first": 14.39,
+"tc": "0:14.39",
+"uses": 1,
+"secs": 2.9
 },
 {
 "clip": "HER-DECK-u7052-hd",
@@ -42,7 +56,7 @@
 "secs": 4.3
 },
 {
-"clip": "WATER-01",
+"clip": "DAWN-07",
 "first": 21.58,
 "tc": "0:21.58",
 "uses": 1,
@@ -420,6 +434,13 @@
 "secs": 1.4
 },
 {
+"clip": "DETAIL-02x",
+"first": 155.4,
+"tc": "2:35.40",
+"uses": 1,
+"secs": 1.4
+},
+{
 "clip": "RIG-WIDE-u93b1-hd",
 "first": 156.83,
 "tc": "2:36.83",
@@ -451,6 +472,13 @@
 "clip": "WATER-11-hd",
 "first": 162.59,
 "tc": "2:42.59",
+"uses": 1,
+"secs": 1.4
+},
+{
+"clip": "RIG-WIDE-01",
+"first": 165.47,
+"tc": "2:45.47",
 "uses": 1,
 "secs": 1.4
 },
@@ -595,45 +623,38 @@
 "secs": 1.4
 },
 {
-"clip": "HELI-04x",
+"clip": "HOME-01-hd",
 "first": 210.07,
 "tc": "3:30.07",
-"uses": 2,
-"secs": 10.8
+"uses": 1,
+"secs": 5.8
 },
 {
-"clip": "HIM-DECK-10-hd",
+"clip": "HOME-05-hd",
+"first": 215.83,
+"tc": "3:35.83",
+"uses": 1,
+"secs": 5.0
+},
+{
+"clip": "HOME-03-hd",
 "first": 220.86,
 "tc": "3:40.86",
 "uses": 1,
-"secs": 0.7
+"secs": 3.6
 },
 {
-"clip": "DETAIL-10-hd",
-"first": 221.58,
-"tc": "3:41.58",
-"uses": 1,
-"secs": 2.9
-},
-{
-"clip": "HER-DECK-u368b-hd",
+"clip": "HOME-04-hd",
 "first": 224.46,
 "tc": "3:44.46",
 "uses": 1,
-"secs": 2.9
+"secs": 3.6
 },
 {
-"clip": "HER-DECK-u6d23-hd",
-"first": 230.22,
-"tc": "3:50.22",
+"clip": "HOME-02-hd",
+"first": 228.06,
+"tc": "3:48.06",
 "uses": 1,
-"secs": 2.9
-},
-{
-"clip": "HIM-DECK-21-hd",
-"first": 233.09,
-"tc": "3:53.09",
-"uses": 1,
-"secs": 2.9
+"secs": 5.0
 }
 ]
