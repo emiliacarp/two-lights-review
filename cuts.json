@@ -71,12 +71,12 @@
 },
 {
 "i": 7,
-"clip": "DAWN-07",
+"clip": "DAWN-07b",
 "at": 21.58,
 "tc": "0:21.58",
 "bars": 1.5,
 "secs": 4.32,
-"ss": 0.5,
+"ss": 0.6,
 "section": "V1 \u2014 twelve miles of black"
 },
 {
@@ -86,7 +86,7 @@
 "tc": "0:25.90",
 "bars": 1.5,
 "secs": 4.32,
-"ss": 0.2,
+"ss": 3.25,
 "section": "V1 \u2014 twelve miles of black"
 },
 {
@@ -96,7 +96,7 @@
 "tc": "0:30.22",
 "bars": 1.5,
 "secs": 4.32,
-"ss": 0.2,
+"ss": 3.0,
 "section": "V1 \u2014 twelve miles of black"
 },
 {
@@ -156,7 +156,7 @@
 "tc": "0:47.48",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 0.2,
+"ss": 6.75,
 "section": "pre 1 \u2014 radio static, the signal"
 },
 {
@@ -1031,22 +1031,22 @@
 },
 {
 "i": 103,
-"clip": "SUNRISE-RIG",
+"clip": "SUNRISE-RIG2",
 "at": 235.97,
 "tc": "3:55.97",
 "bars": 2.0,
 "secs": 5.76,
-"ss": 0.5,
+"ss": 0.15,
 "section": "OUTRO \u2014 the helipad, the money"
 },
 {
 "i": 104,
-"clip": "SUNRISE-WATER",
+"clip": "SUNRISE-WATER2",
 "at": 241.73,
 "tc": "4:01.73",
 "bars": 2.0,
 "secs": 5.76,
-"ss": 0.5,
+"ss": 0.15,
 "section": "finale \u2014 two lights under the stars"
 }
 ]
