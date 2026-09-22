@@ -1,7 +1,7 @@
 [
 {
 "i": 0,
-"clip": "HIM-CABIN-01",
+"clip": "HIM-CABIN-01-hd",
 "at": 0.0,
 "tc": "0:00.00",
 "bars": 0.25,
@@ -41,7 +41,7 @@
 },
 {
 "i": 4,
-"clip": "HIM-DECK-01",
+"clip": "HIM-DECK-01-hd",
 "at": 15.83,
 "tc": "0:15.83",
 "bars": 0.5,
@@ -51,7 +51,7 @@
 },
 {
 "i": 5,
-"clip": "HER-DECK-u7052",
+"clip": "HER-DECK-u7052-hd",
 "at": 17.27,
 "tc": "0:17.27",
 "bars": 1.5,
@@ -91,7 +91,7 @@
 },
 {
 "i": 9,
-"clip": "HER-DECK-u32ad",
+"clip": "HER-DECK-u32ad-hd",
 "at": 34.53,
 "tc": "0:34.53",
 "bars": 1.0,
@@ -111,7 +111,7 @@
 },
 {
 "i": 11,
-"clip": "HIM-DECK-02",
+"clip": "HIM-DECK-02-hd",
 "at": 40.29,
 "tc": "0:40.29",
 "bars": 1.0,
@@ -131,7 +131,7 @@
 },
 {
 "i": 13,
-"clip": "HIM-DECK-03",
+"clip": "HIM-DECK-03-hd",
 "at": 46.04,
 "tc": "0:46.04",
 "bars": 0.5,
@@ -141,7 +141,7 @@
 },
 {
 "i": 14,
-"clip": "HER-DECK-u4d86",
+"clip": "HER-DECK-u4d86-hd",
 "at": 47.48,
 "tc": "0:47.48",
 "bars": 0.5,
@@ -151,7 +151,7 @@
 },
 {
 "i": 15,
-"clip": "DETAIL-05",
+"clip": "DETAIL-05-hd",
 "at": 48.92,
 "tc": "0:48.92",
 "bars": 0.5,
@@ -181,7 +181,7 @@
 },
 {
 "i": 18,
-"clip": "HIM-DECK-04",
+"clip": "HIM-DECK-04-hd",
 "at": 54.68,
 "tc": "0:54.68",
 "bars": 0.5,
@@ -191,7 +191,7 @@
 },
 {
 "i": 19,
-"clip": "HER-DECK-u32ad",
+"clip": "HER-DECK-u32ad-hd",
 "at": 56.12,
 "tc": "0:56.12",
 "bars": 0.5,
@@ -211,7 +211,7 @@
 },
 {
 "i": 21,
-"clip": "WATER-04",
+"clip": "WATER-04-hd",
 "at": 60.43,
 "tc": "1:00.43",
 "bars": 0.5,
@@ -231,7 +231,7 @@
 },
 {
 "i": 23,
-"clip": "HIM-DECK-10j",
+"clip": "HIM-DECK-10j-hd",
 "at": 63.31,
 "tc": "1:03.31",
 "bars": 0.5,
@@ -241,7 +241,7 @@
 },
 {
 "i": 24,
-"clip": "HER-DECK-u4d86",
+"clip": "HER-DECK-u4d86-hd",
 "at": 64.75,
 "tc": "1:04.75",
 "bars": 1.0,
@@ -251,7 +251,7 @@
 },
 {
 "i": 25,
-"clip": "DETAIL-u2ff8",
+"clip": "DETAIL-u2ff8-hd",
 "at": 67.63,
 "tc": "1:07.63",
 "bars": 0.5,
@@ -261,7 +261,7 @@
 },
 {
 "i": 26,
-"clip": "WATER-07",
+"clip": "WATER-07-hd",
 "at": 69.06,
 "tc": "1:09.06",
 "bars": 0.5,
@@ -271,7 +271,7 @@
 },
 {
 "i": 27,
-"clip": "RIG-WIDE-03",
+"clip": "RIG-WIDE-03-hd",
 "at": 70.5,
 "tc": "1:10.50",
 "bars": 0.5,
@@ -281,7 +281,7 @@
 },
 {
 "i": 28,
-"clip": "HIM-DECK-11",
+"clip": "HIM-DECK-11-hd",
 "at": 71.94,
 "tc": "1:11.94",
 "bars": 1.0,
@@ -291,7 +291,7 @@
 },
 {
 "i": 29,
-"clip": "HIM-CABIN-03",
+"clip": "HIM-CABIN-03-hd",
 "at": 74.82,
 "tc": "1:14.82",
 "bars": 1.0,
@@ -301,7 +301,7 @@
 },
 {
 "i": 30,
-"clip": "HER-DECK-10",
+"clip": "HER-DECK-10-hd",
 "at": 77.7,
 "tc": "1:17.70",
 "bars": 1.0,
@@ -321,7 +321,7 @@
 },
 {
 "i": 32,
-"clip": "HIM-DECK-07",
+"clip": "HIM-DECK-07-hd",
 "at": 83.45,
 "tc": "1:23.45",
 "bars": 1.0,
@@ -331,7 +331,7 @@
 },
 {
 "i": 33,
-"clip": "HIM-CABIN-02",
+"clip": "HIM-CABIN-02-hd",
 "at": 86.33,
 "tc": "1:26.33",
 "bars": 1.0,
@@ -341,7 +341,7 @@
 },
 {
 "i": 34,
-"clip": "HER-DECK-12",
+"clip": "HER-DECK-12-hd",
 "at": 89.21,
 "tc": "1:29.21",
 "bars": 1.0,
@@ -361,7 +361,7 @@
 },
 {
 "i": 36,
-"clip": "HIM-DECK-08",
+"clip": "HIM-DECK-08-hd",
 "at": 94.96,
 "tc": "1:34.96",
 "bars": 1.0,
@@ -371,7 +371,7 @@
 },
 {
 "i": 37,
-"clip": "HER-DECK-u0292",
+"clip": "HER-DECK-u0292-hd",
 "at": 97.84,
 "tc": "1:37.84",
 "bars": 1.0,
@@ -381,7 +381,7 @@
 },
 {
 "i": 38,
-"clip": "RIG-WIDE-06",
+"clip": "RIG-WIDE-06-hd",
 "at": 100.72,
 "tc": "1:40.72",
 "bars": 1.0,
@@ -391,7 +391,7 @@
 },
 {
 "i": 39,
-"clip": "STORM-04",
+"clip": "STORM-04-hd",
 "at": 103.6,
 "tc": "1:43.60",
 "bars": 0.5,
@@ -401,7 +401,7 @@
 },
 {
 "i": 40,
-"clip": "HER-DECK-u1860",
+"clip": "HER-DECK-u1860-hd",
 "at": 105.04,
 "tc": "1:45.04",
 "bars": 0.5,
@@ -411,7 +411,7 @@
 },
 {
 "i": 41,
-"clip": "HIM-DECK-05",
+"clip": "HIM-DECK-05-hd",
 "at": 106.47,
 "tc": "1:46.47",
 "bars": 0.5,
@@ -421,7 +421,7 @@
 },
 {
 "i": 42,
-"clip": "WATER-12",
+"clip": "WATER-12-hd",
 "at": 107.91,
 "tc": "1:47.91",
 "bars": 1.0,
@@ -431,7 +431,7 @@
 },
 {
 "i": 43,
-"clip": "DETAIL-03",
+"clip": "DETAIL-03-hd",
 "at": 110.79,
 "tc": "1:50.79",
 "bars": 0.5,
@@ -441,7 +441,7 @@
 },
 {
 "i": 44,
-"clip": "STORM-02",
+"clip": "STORM-02-hd",
 "at": 112.23,
 "tc": "1:52.23",
 "bars": 0.5,
@@ -451,7 +451,7 @@
 },
 {
 "i": 45,
-"clip": "HER-DECK-u32ad",
+"clip": "HER-DECK-u32ad-hd",
 "at": 113.67,
 "tc": "1:53.67",
 "bars": 0.5,
@@ -461,7 +461,7 @@
 },
 {
 "i": 46,
-"clip": "HIM-DECK-11j",
+"clip": "HIM-DECK-11j-hd",
 "at": 115.11,
 "tc": "1:55.11",
 "bars": 1.0,
@@ -471,7 +471,7 @@
 },
 {
 "i": 47,
-"clip": "WATER-15",
+"clip": "WATER-15-hd",
 "at": 117.99,
 "tc": "1:57.99",
 "bars": 0.5,
@@ -501,7 +501,7 @@
 },
 {
 "i": 50,
-"clip": "HER-DECK-u4d86",
+"clip": "HER-DECK-u4d86-hd",
 "at": 122.3,
 "tc": "2:02.30",
 "bars": 1.0,
@@ -511,7 +511,7 @@
 },
 {
 "i": 51,
-"clip": "HIM-DECK-17",
+"clip": "HIM-DECK-17-hd",
 "at": 125.18,
 "tc": "2:05.18",
 "bars": 0.5,
@@ -521,7 +521,7 @@
 },
 {
 "i": 52,
-"clip": "WATER-16",
+"clip": "WATER-16-hd",
 "at": 126.62,
 "tc": "2:06.62",
 "bars": 0.5,
@@ -531,7 +531,7 @@
 },
 {
 "i": 53,
-"clip": "DETAIL-uba9c",
+"clip": "DETAIL-uba9c-hd",
 "at": 128.06,
 "tc": "2:08.06",
 "bars": 0.5,
@@ -541,7 +541,7 @@
 },
 {
 "i": 54,
-"clip": "STORM-u15c3",
+"clip": "STORM-u15c3-hd",
 "at": 129.5,
 "tc": "2:09.50",
 "bars": 1.0,
@@ -551,7 +551,7 @@
 },
 {
 "i": 55,
-"clip": "HER-DECK-u9aa2",
+"clip": "HER-DECK-u9aa2-hd",
 "at": 132.37,
 "tc": "2:12.37",
 "bars": 0.5,
@@ -561,7 +561,7 @@
 },
 {
 "i": 56,
-"clip": "HIM-DECK-18",
+"clip": "HIM-DECK-18-hd",
 "at": 133.81,
 "tc": "2:13.81",
 "bars": 0.5,
@@ -581,7 +581,7 @@
 },
 {
 "i": 58,
-"clip": "DETAIL-uc374",
+"clip": "DETAIL-uc374-hd",
 "at": 136.69,
 "tc": "2:16.69",
 "bars": 0.5,
@@ -591,7 +591,7 @@
 },
 {
 "i": 59,
-"clip": "WATER-u7ff4",
+"clip": "WATER-u7ff4-hd",
 "at": 138.13,
 "tc": "2:18.13",
 "bars": 2.0,
@@ -601,7 +601,7 @@
 },
 {
 "i": 60,
-"clip": "RIG-WIDE-08",
+"clip": "RIG-WIDE-08-hd",
 "at": 143.89,
 "tc": "2:23.89",
 "bars": 2.0,
@@ -621,7 +621,7 @@
 },
 {
 "i": 62,
-"clip": "HIM-DECK-u3f5f",
+"clip": "HIM-DECK-u3f5f-hd",
 "at": 151.08,
 "tc": "2:31.08",
 "bars": 0.5,
@@ -631,7 +631,7 @@
 },
 {
 "i": 63,
-"clip": "HER-DECK-ud065",
+"clip": "HER-DECK-ud065-hd",
 "at": 152.52,
 "tc": "2:32.52",
 "bars": 0.5,
@@ -641,7 +641,7 @@
 },
 {
 "i": 64,
-"clip": "WATER-10",
+"clip": "WATER-10-hd",
 "at": 153.96,
 "tc": "2:33.96",
 "bars": 0.5,
@@ -661,7 +661,7 @@
 },
 {
 "i": 66,
-"clip": "RIG-WIDE-u93b1",
+"clip": "RIG-WIDE-u93b1-hd",
 "at": 156.83,
 "tc": "2:36.83",
 "bars": 0.5,
@@ -671,7 +671,7 @@
 },
 {
 "i": 67,
-"clip": "STORM-03",
+"clip": "STORM-03-hd",
 "at": 158.27,
 "tc": "2:38.27",
 "bars": 0.5,
@@ -681,7 +681,7 @@
 },
 {
 "i": 68,
-"clip": "HIM-DECK-uefdb",
+"clip": "HIM-DECK-uefdb-hd",
 "at": 159.71,
 "tc": "2:39.71",
 "bars": 0.5,
@@ -691,7 +691,7 @@
 },
 {
 "i": 69,
-"clip": "HER-DECK-ue4ac",
+"clip": "HER-DECK-ue4ac-hd",
 "at": 161.15,
 "tc": "2:41.15",
 "bars": 0.5,
@@ -701,7 +701,7 @@
 },
 {
 "i": 70,
-"clip": "WATER-11",
+"clip": "WATER-11-hd",
 "at": 162.59,
 "tc": "2:42.59",
 "bars": 0.5,
@@ -731,7 +731,7 @@
 },
 {
 "i": 73,
-"clip": "STORM-uc5cc",
+"clip": "STORM-uc5cc-hd",
 "at": 166.91,
 "tc": "2:46.91",
 "bars": 0.5,
@@ -741,7 +741,7 @@
 },
 {
 "i": 74,
-"clip": "HIM-DECK-02",
+"clip": "HIM-DECK-02-hd",
 "at": 168.35,
 "tc": "2:48.35",
 "bars": 0.5,
@@ -761,7 +761,7 @@
 },
 {
 "i": 76,
-"clip": "HIM-DECK-16",
+"clip": "HIM-DECK-16-hd",
 "at": 175.54,
 "tc": "2:55.54",
 "bars": 0.5,
@@ -771,7 +771,7 @@
 },
 {
 "i": 77,
-"clip": "HER-DECK-07",
+"clip": "HER-DECK-07-hd",
 "at": 176.98,
 "tc": "2:56.98",
 "bars": 0.5,
@@ -791,7 +791,7 @@
 },
 {
 "i": 79,
-"clip": "DETAIL-11",
+"clip": "DETAIL-11-hd",
 "at": 179.86,
 "tc": "2:59.86",
 "bars": 1.0,
@@ -801,7 +801,7 @@
 },
 {
 "i": 80,
-"clip": "WATER-05",
+"clip": "WATER-05-hd",
 "at": 182.73,
 "tc": "3:02.73",
 "bars": 0.5,
@@ -811,7 +811,7 @@
 },
 {
 "i": 81,
-"clip": "HIM-DECK-17",
+"clip": "HIM-DECK-17-hd",
 "at": 184.17,
 "tc": "3:04.17",
 "bars": 0.5,
@@ -821,7 +821,7 @@
 },
 {
 "i": 82,
-"clip": "HER-DECK-08",
+"clip": "HER-DECK-08-hd",
 "at": 185.61,
 "tc": "3:05.61",
 "bars": 0.5,
@@ -841,7 +841,7 @@
 },
 {
 "i": 84,
-"clip": "DETAIL-u64fe",
+"clip": "DETAIL-u64fe-hd",
 "at": 189.93,
 "tc": "3:09.93",
 "bars": 0.5,
@@ -851,7 +851,7 @@
 },
 {
 "i": 85,
-"clip": "WATER-06",
+"clip": "WATER-06-hd",
 "at": 191.37,
 "tc": "3:11.37",
 "bars": 0.5,
@@ -861,7 +861,7 @@
 },
 {
 "i": 86,
-"clip": "HIM-DECK-09",
+"clip": "HIM-DECK-09-hd",
 "at": 192.81,
 "tc": "3:12.81",
 "bars": 0.5,
@@ -871,7 +871,7 @@
 },
 {
 "i": 87,
-"clip": "HER-DECK-09",
+"clip": "HER-DECK-09-hd",
 "at": 194.24,
 "tc": "3:14.24",
 "bars": 1.0,
@@ -881,7 +881,7 @@
 },
 {
 "i": 88,
-"clip": "RIG-WIDE-u1dd5",
+"clip": "RIG-WIDE-u1dd5-hd",
 "at": 197.12,
 "tc": "3:17.12",
 "bars": 0.5,
@@ -891,7 +891,7 @@
 },
 {
 "i": 89,
-"clip": "DETAIL-08",
+"clip": "DETAIL-08-hd",
 "at": 198.56,
 "tc": "3:18.56",
 "bars": 0.5,
@@ -901,7 +901,7 @@
 },
 {
 "i": 90,
-"clip": "WATER-08",
+"clip": "WATER-08-hd",
 "at": 200.0,
 "tc": "3:20.00",
 "bars": 0.5,
@@ -911,7 +911,7 @@
 },
 {
 "i": 91,
-"clip": "HIM-DECK-09j",
+"clip": "HIM-DECK-09j-hd",
 "at": 201.44,
 "tc": "3:21.44",
 "bars": 1.0,
@@ -921,7 +921,7 @@
 },
 {
 "i": 92,
-"clip": "HER-DECK-11",
+"clip": "HER-DECK-11-hd",
 "at": 204.32,
 "tc": "3:24.32",
 "bars": 0.5,
@@ -931,7 +931,7 @@
 },
 {
 "i": 93,
-"clip": "RIG-WIDE-u1ddf",
+"clip": "RIG-WIDE-u1ddf-hd",
 "at": 205.76,
 "tc": "3:25.76",
 "bars": 0.5,
@@ -941,7 +941,7 @@
 },
 {
 "i": 94,
-"clip": "DETAIL-09",
+"clip": "DETAIL-09-hd",
 "at": 207.19,
 "tc": "3:27.19",
 "bars": 0.5,
@@ -951,7 +951,7 @@
 },
 {
 "i": 95,
-"clip": "WATER-14",
+"clip": "WATER-14-hd",
 "at": 208.63,
 "tc": "3:28.63",
 "bars": 0.5,
@@ -981,7 +981,7 @@
 },
 {
 "i": 98,
-"clip": "HIM-DECK-10",
+"clip": "HIM-DECK-10-hd",
 "at": 220.86,
 "tc": "3:40.86",
 "bars": 0.25,
@@ -991,7 +991,7 @@
 },
 {
 "i": 99,
-"clip": "DETAIL-10",
+"clip": "DETAIL-10-hd",
 "at": 221.58,
 "tc": "3:41.58",
 "bars": 1.0,
@@ -1001,7 +1001,7 @@
 },
 {
 "i": 100,
-"clip": "HER-DECK-u368b",
+"clip": "HER-DECK-u368b-hd",
 "at": 224.46,
 "tc": "3:44.46",
 "bars": 1.0,
@@ -1021,7 +1021,7 @@
 },
 {
 "i": 102,
-"clip": "HER-DECK-u6d23",
+"clip": "HER-DECK-u6d23-hd",
 "at": 230.22,
 "tc": "3:50.22",
 "bars": 1.0,
@@ -1031,7 +1031,7 @@
 },
 {
 "i": 103,
-"clip": "HIM-DECK-21",
+"clip": "HIM-DECK-21-hd",
 "at": 233.09,
 "tc": "3:53.09",
 "bars": 1.0,
@@ -1051,7 +1051,7 @@
 },
 {
 "i": 105,
-"clip": "WATER-16",
+"clip": "WATER-16-hd",
 "at": 241.73,
 "tc": "4:01.73",
 "bars": 2.0,
