@@ -251,12 +251,12 @@
 },
 {
 "i": 25,
-"clip": "HER-DECK-u4d86-hd",
+"clip": "HER-DECK-u6d23-hd",
 "at": 64.75,
 "tc": "1:04.75",
 "bars": 1.0,
 "secs": 2.88,
-"ss": 2.7,
+"ss": 1.2,
 "section": "CHORUS 1 \u2014 the pull"
 },
 {
@@ -581,12 +581,12 @@
 },
 {
 "i": 58,
-"clip": "WATER-03",
+"clip": "RIG-WIDE-ub62b-hd",
 "at": 135.25,
 "tc": "2:15.25",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 0.2,
+"ss": 0.6,
 "section": "CHORUS 2 \u2014 the weather breaks"
 },
 {
@@ -1001,12 +1001,12 @@
 },
 {
 "i": 100,
-"clip": "HOME-03-hd",
+"clip": "HOME-03-b-hd",
 "at": 220.86,
 "tc": "3:40.86",
 "bars": 1.75,
 "secs": 5.04,
-"ss": 1.0,
+"ss": 2.5,
 "section": "OUTRO \u2014 the helipad, the money"
 },
 {

@@ -108,8 +108,8 @@
 "clip": "HER-DECK-u4d86-hd",
 "first": 47.48,
 "tc": "0:47.48",
-"uses": 2,
-"secs": 4.3
+"uses": 1,
+"secs": 1.4
 },
 {
 "clip": "DETAIL-05-hd",
@@ -166,6 +166,13 @@
 "tc": "1:03.31",
 "uses": 1,
 "secs": 1.4
+},
+{
+"clip": "HER-DECK-u6d23-hd",
+"first": 64.75,
+"tc": "1:04.75",
+"uses": 1,
+"secs": 2.9
 },
 {
 "clip": "DETAIL-u2ff8-hd",
@@ -392,7 +399,7 @@
 "secs": 1.4
 },
 {
-"clip": "WATER-03",
+"clip": "RIG-WIDE-ub62b-hd",
 "first": 135.25,
 "tc": "2:15.25",
 "uses": 1,
@@ -651,7 +658,7 @@
 "secs": 5.0
 },
 {
-"clip": "HOME-03-hd",
+"clip": "HOME-03-b-hd",
 "first": 220.86,
 "tc": "3:40.86",
 "uses": 1,
