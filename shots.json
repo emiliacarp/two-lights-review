@@ -66,8 +66,8 @@
 "clip": "HELI-02",
 "first": 30.22,
 "tc": "0:30.22",
-"uses": 2,
-"secs": 7.2
+"uses": 1,
+"secs": 4.3
 },
 {
 "clip": "HER-DECK-u32ad-hd",
@@ -129,8 +129,8 @@
 "clip": "RIG-WIDE-05x",
 "first": 53.24,
 "tc": "0:53.24",
-"uses": 2,
-"secs": 7.2
+"uses": 1,
+"secs": 1.4
 },
 {
 "clip": "HIM-DECK-04-hd",
@@ -210,7 +210,7 @@
 "secs": 2.9
 },
 {
-"clip": "DETAIL-06",
+"clip": "DETAIL-u3580-hd",
 "first": 80.58,
 "tc": "1:20.58",
 "uses": 1,
@@ -360,8 +360,8 @@
 "clip": "WATER-16-hd",
 "first": 126.62,
 "tc": "2:06.62",
-"uses": 2,
-"secs": 7.2
+"uses": 1,
+"secs": 1.4
 },
 {
 "clip": "DETAIL-uba9c-hd",
@@ -434,7 +434,7 @@
 "secs": 1.4
 },
 {
-"clip": "WATER-10-hd",
+"clip": "STORM-u3392-hd",
 "first": 153.96,
 "tc": "2:33.96",
 "uses": 1,
@@ -630,11 +630,18 @@
 "secs": 1.4
 },
 {
-"clip": "HOME-01-hd",
+"clip": "SUNRISE-01",
 "first": 210.07,
 "tc": "3:30.07",
 "uses": 1,
-"secs": 5.8
+"secs": 2.2
+},
+{
+"clip": "HOME-01-hd",
+"first": 212.23,
+"tc": "3:32.23",
+"uses": 1,
+"secs": 3.6
 },
 {
 "clip": "HOME-05-hd",
@@ -648,20 +655,34 @@
 "first": 220.86,
 "tc": "3:40.86",
 "uses": 1,
-"secs": 3.6
+"secs": 5.0
 },
 {
 "clip": "HOME-04-hd",
-"first": 224.46,
-"tc": "3:44.46",
-"uses": 1,
-"secs": 3.6
-},
-{
-"clip": "HOME-02-hd",
-"first": 228.06,
-"tc": "3:48.06",
+"first": 225.9,
+"tc": "3:45.90",
 "uses": 1,
 "secs": 5.0
+},
+{
+"clip": "SUNRISE-HELI",
+"first": 230.94,
+"tc": "3:50.94",
+"uses": 1,
+"secs": 5.0
+},
+{
+"clip": "SUNRISE-RIG",
+"first": 235.97,
+"tc": "3:55.97",
+"uses": 1,
+"secs": 5.8
+},
+{
+"clip": "SUNRISE-WATER",
+"first": 241.73,
+"tc": "4:01.73",
+"uses": 1,
+"secs": 5.8
 }
 ]

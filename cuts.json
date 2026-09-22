@@ -321,12 +321,12 @@
 },
 {
 "i": 32,
-"clip": "DETAIL-06",
+"clip": "DETAIL-u3580-hd",
 "at": 80.58,
 "tc": "1:20.58",
 "bars": 1.0,
 "secs": 2.88,
-"ss": 0.2,
+"ss": 1.0,
 "section": "V2 \u2014 shadow in my doorway"
 },
 {
@@ -346,7 +346,7 @@
 "tc": "1:26.33",
 "bars": 1.0,
 "secs": 2.88,
-"ss": 0.2,
+"ss": 1.86,
 "section": "V2 \u2014 shadow in my doorway"
 },
 {
@@ -651,12 +651,12 @@
 },
 {
 "i": 65,
-"clip": "WATER-10-hd",
+"clip": "STORM-u3392-hd",
 "at": 153.96,
 "tc": "2:33.96",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 2.62,
+"ss": 1.0,
 "section": "BRIDGE \u2014 the storm, hold the line"
 },
 {
@@ -971,16 +971,26 @@
 },
 {
 "i": 97,
-"clip": "HOME-01-hd",
+"clip": "SUNRISE-01",
 "at": 210.07,
 "tc": "3:30.07",
-"bars": 2.0,
-"secs": 5.76,
-"ss": 0.4,
+"bars": 0.75,
+"secs": 2.16,
+"ss": 6.5,
 "section": "CHORUS 3 \u2014 clearing, everybody watching"
 },
 {
 "i": 98,
+"clip": "HOME-01-hd",
+"at": 212.23,
+"tc": "3:32.23",
+"bars": 1.25,
+"secs": 3.6,
+"ss": 0.4,
+"section": "CHORUS 3 \u2014 clearing, everybody watching"
+},
+{
+"i": 99,
 "clip": "HOME-05-hd",
 "at": 215.83,
 "tc": "3:35.83",
@@ -990,63 +1000,53 @@
 "section": "OUTRO \u2014 the helipad, the money"
 },
 {
-"i": 99,
+"i": 100,
 "clip": "HOME-03-hd",
 "at": 220.86,
 "tc": "3:40.86",
-"bars": 1.25,
-"secs": 3.6,
-"ss": 1.0,
-"section": "OUTRO \u2014 the helipad, the money"
-},
-{
-"i": 100,
-"clip": "HOME-04-hd",
-"at": 224.46,
-"tc": "3:44.46",
-"bars": 1.25,
-"secs": 3.6,
+"bars": 1.75,
+"secs": 5.04,
 "ss": 1.0,
 "section": "OUTRO \u2014 the helipad, the money"
 },
 {
 "i": 101,
-"clip": "HOME-02-hd",
-"at": 228.06,
-"tc": "3:48.06",
+"clip": "HOME-04-hd",
+"at": 225.9,
+"tc": "3:45.90",
 "bars": 1.75,
 "secs": 5.04,
-"ss": 0.5,
+"ss": 1.0,
 "section": "OUTRO \u2014 the helipad, the money"
 },
 {
 "i": 102,
-"clip": "HELI-02",
-"at": 233.09,
-"tc": "3:53.09",
-"bars": 1.0,
-"secs": 2.88,
-"ss": 2.7,
+"clip": "SUNRISE-HELI",
+"at": 230.94,
+"tc": "3:50.94",
+"bars": 1.75,
+"secs": 5.04,
+"ss": 0.3,
 "section": "OUTRO \u2014 the helipad, the money"
 },
 {
 "i": 103,
-"clip": "RIG-WIDE-05x",
+"clip": "SUNRISE-RIG",
 "at": 235.97,
 "tc": "3:55.97",
 "bars": 2.0,
 "secs": 5.76,
-"ss": 1.64,
+"ss": 0.5,
 "section": "OUTRO \u2014 the helipad, the money"
 },
 {
 "i": 104,
-"clip": "WATER-16-hd",
+"clip": "SUNRISE-WATER",
 "at": 241.73,
 "tc": "4:01.73",
 "bars": 2.0,
 "secs": 5.76,
-"ss": 1.64,
+"ss": 0.5,
 "section": "finale \u2014 two lights under the stars"
 }
 ]
