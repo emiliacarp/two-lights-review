@@ -56,7 +56,7 @@
 "tc": "0:14.39",
 "bars": 1.0,
 "secs": 2.88,
-"ss": 0.2,
+"ss": 2.6,
 "section": "V1 \u2014 twelve miles of black"
 },
 {
@@ -71,12 +71,12 @@
 },
 {
 "i": 7,
-"clip": "DAWN-07b",
+"clip": "BOAT2",
 "at": 21.58,
 "tc": "0:21.58",
 "bars": 1.5,
 "secs": 4.32,
-"ss": 0.6,
+"ss": 0.5,
 "section": "V1 \u2014 twelve miles of black"
 },
 {
@@ -211,12 +211,12 @@
 },
 {
 "i": 21,
-"clip": "DETAIL-07",
+"clip": "STORM-01-hd",
 "at": 57.55,
 "tc": "0:57.55",
 "bars": 1.0,
 "secs": 2.88,
-"ss": 0.2,
+"ss": 1.0,
 "section": "CHORUS 1 \u2014 the pull"
 },
 {
@@ -286,7 +286,7 @@
 "tc": "1:10.50",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 4.12,
+"ss": 3.18,
 "section": "CHORUS 1 \u2014 the pull"
 },
 {
@@ -326,7 +326,7 @@
 "tc": "1:20.58",
 "bars": 1.0,
 "secs": 2.88,
-"ss": 1.0,
+"ss": 0.4,
 "section": "V2 \u2014 shadow in my doorway"
 },
 {
@@ -336,7 +336,7 @@
 "tc": "1:23.45",
 "bars": 1.0,
 "secs": 2.88,
-"ss": 0.2,
+"ss": 2.6,
 "section": "V2 \u2014 shadow in my doorway"
 },
 {
@@ -354,18 +354,18 @@
 "clip": "HER-DECK-12-hd",
 "at": 89.21,
 "tc": "1:29.21",
-"bars": 1.0,
-"secs": 2.88,
-"ss": 0.2,
+"bars": 0.75,
+"secs": 2.16,
+"ss": 3.2,
 "section": "V2 \u2014 shadow in my doorway"
 },
 {
 "i": 36,
 "clip": "DETAIL-01",
-"at": 92.09,
-"tc": "1:32.09",
-"bars": 1.0,
-"secs": 2.88,
+"at": 91.37,
+"tc": "1:31.37",
+"bars": 1.25,
+"secs": 3.6,
 "ss": 0.2,
 "section": "V2 \u2014 shadow in my doorway"
 },
@@ -501,12 +501,12 @@
 },
 {
 "i": 50,
-"clip": "STORM-01x",
+"clip": "HIM-DECK-06-hd",
 "at": 120.86,
 "tc": "2:00.86",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 3.23,
+"ss": 5.5,
 "section": "CHORUS 2 \u2014 the weather breaks"
 },
 {
@@ -661,7 +661,7 @@
 },
 {
 "i": 66,
-"clip": "HIM-DECK-14-hd",
+"clip": "CREW2",
 "at": 155.4,
 "tc": "2:35.40",
 "bars": 0.5,
@@ -731,22 +731,22 @@
 },
 {
 "i": 73,
-"clip": "RIG-WIDE-01",
+"clip": "HIM-DECK-14-hd over RIG-WIDE-01",
 "at": 165.47,
 "tc": "2:45.47",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 3.23,
+"ss": 1.0,
 "section": "BRIDGE \u2014 the storm, hold the line"
 },
 {
 "i": 74,
-"clip": "STORM-uc5cc-hd",
+"clip": "HIM-DECK-14-hd over STORM-uc5cc-hd",
 "at": 166.91,
 "tc": "2:46.91",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 0.2,
+"ss": 1.0,
 "section": "BRIDGE \u2014 the storm, hold the line"
 },
 {
