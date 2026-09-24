@@ -321,22 +321,22 @@
 },
 {
 "i": 32,
-"clip": "HIM-DECK-07-hd",
+"clip": "HIM-CABIN-02-hd",
 "at": 83.45,
 "tc": "1:23.45",
 "bars": 1.0,
 "secs": 2.88,
-"ss": 3.9,
+"ss": 1.86,
 "section": "V2 \u2014 shadow in my doorway"
 },
 {
 "i": 33,
-"clip": "HIM-CABIN-02-hd",
+"clip": "HIM-DECK-07-hd",
 "at": 86.33,
 "tc": "1:26.33",
 "bars": 1.0,
 "secs": 2.88,
-"ss": 1.86,
+"ss": 3.9,
 "section": "V2 \u2014 shadow in my doorway"
 },
 {
