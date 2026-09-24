@@ -59,8 +59,8 @@
 "clip": "RIG-WIDE-02",
 "first": 25.9,
 "tc": "0:25.90",
-"uses": 1,
-"secs": 4.3
+"uses": 2,
+"secs": 7.2
 },
 {
 "clip": "HELI-02",
@@ -544,13 +544,6 @@
 "tc": "3:05.61",
 "uses": 1,
 "secs": 1.4
-},
-{
-"clip": "RIG-WIDE-08x",
-"first": 187.05,
-"tc": "3:07.05",
-"uses": 1,
-"secs": 2.9
 },
 {
 "clip": "DETAIL-u64fe-hd",
