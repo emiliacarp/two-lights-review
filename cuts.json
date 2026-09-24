@@ -171,12 +171,12 @@
 },
 {
 "i": 17,
-"clip": "WATER-02x",
+"clip": "WAVE2",
 "at": 50.36,
 "tc": "0:50.36",
 "bars": 1.0,
 "secs": 2.88,
-"ss": 0.2,
+"ss": 0.5,
 "section": "CHORUS 1 \u2014 the pull"
 },
 {
@@ -216,7 +216,7 @@
 "tc": "0:57.55",
 "bars": 1.0,
 "secs": 2.88,
-"ss": 1.0,
+"ss": 5.6,
 "section": "CHORUS 1 \u2014 the pull"
 },
 {
@@ -446,7 +446,7 @@
 "tc": "1:50.79",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 3.0,
+"ss": 6.5,
 "section": "CHORUS 2 \u2014 the weather breaks"
 },
 {
@@ -484,19 +484,19 @@
 "clip": "WATER-15-hd",
 "at": 117.99,
 "tc": "1:57.99",
-"bars": 0.5,
-"secs": 1.44,
+"bars": 0.75,
+"secs": 2.16,
 "ss": 0.2,
 "section": "CHORUS 2 \u2014 the weather breaks"
 },
 {
 "i": 49,
 "clip": "DETAIL-03x",
-"at": 119.42,
-"tc": "1:59.42",
-"bars": 0.5,
-"secs": 1.44,
-"ss": 6.28,
+"at": 120.14,
+"tc": "2:00.14",
+"bars": 0.25,
+"secs": 0.72,
+"ss": 2.5,
 "section": "CHORUS 2 \u2014 the weather breaks"
 },
 {
@@ -546,7 +546,7 @@
 "tc": "2:08.06",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 3.18,
+"ss": 7.3,
 "section": "CHORUS 2 \u2014 the weather breaks"
 },
 {
@@ -606,17 +606,17 @@
 "tc": "2:18.13",
 "bars": 2.0,
 "secs": 5.76,
-"ss": 0.2,
+"ss": 2.7,
 "section": "CHORUS 2 \u2014 the weather breaks"
 },
 {
 "i": 61,
-"clip": "RIG-WIDE-08-hd",
+"clip": "WRENCH2",
 "at": 143.89,
 "tc": "2:23.89",
 "bars": 2.0,
 "secs": 5.76,
-"ss": 1.74,
+"ss": 0.15,
 "section": "BREAKDOWN \u2014 under the surface"
 },
 {

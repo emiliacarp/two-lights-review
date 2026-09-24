@@ -119,7 +119,7 @@
 "secs": 1.4
 },
 {
-"clip": "WATER-02x",
+"clip": "WAVE2",
 "first": 50.36,
 "tc": "0:50.36",
 "uses": 1,
@@ -333,14 +333,14 @@
 "first": 117.99,
 "tc": "1:57.99",
 "uses": 1,
-"secs": 1.4
+"secs": 2.2
 },
 {
 "clip": "DETAIL-03x",
-"first": 119.42,
-"tc": "1:59.42",
+"first": 120.14,
+"tc": "2:00.14",
 "uses": 1,
-"secs": 1.4
+"secs": 0.7
 },
 {
 "clip": "HIM-DECK-06-hd",
@@ -420,7 +420,7 @@
 "secs": 5.8
 },
 {
-"clip": "RIG-WIDE-08-hd",
+"clip": "WRENCH2",
 "first": 143.89,
 "tc": "2:23.89",
 "uses": 1,
