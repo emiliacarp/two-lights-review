@@ -231,22 +231,22 @@
 },
 {
 "i": 23,
-"clip": "STORM-uc5cc-hd over HIM-DECK-10j-hd",
+"clip": "HIM-DECK-10j-hd",
 "at": 63.31,
 "tc": "1:03.31",
 "bars": 0.5,
 "secs": 1.44,
-"ss": 1.0,
+"ss": 0.2,
 "section": "CHORUS 1 \u2014 the pull"
 },
 {
 "i": 24,
-"clip": "HER-VALVE4b-hd",
+"clip": "HIM-DECK-10j-hd over HER-VALVE4b-hd",
 "at": 64.75,
 "tc": "1:04.75",
 "bars": 1.0,
 "secs": 2.88,
-"ss": 1.6,
+"ss": 2.4,
 "section": "CHORUS 1 \u2014 the pull"
 },
 {
