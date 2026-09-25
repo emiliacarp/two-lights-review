@@ -654,8 +654,8 @@
 "clip": "HOME-05-hd",
 "first": 215.83,
 "tc": "3:35.83",
-"uses": 1,
-"secs": 5.0
+"uses": 2,
+"secs": 7.2
 },
 {
 "clip": "HOME-03-b-hd",
@@ -668,8 +668,8 @@
 "clip": "HOME-04-hd",
 "first": 225.9,
 "tc": "3:45.90",
-"uses": 1,
-"secs": 5.0
+"uses": 2,
+"secs": 7.2
 },
 {
 "clip": "SUNRISE-HELI",
@@ -683,13 +683,13 @@
 "first": 235.97,
 "tc": "3:55.97",
 "uses": 1,
-"secs": 5.8
+"secs": 2.9
 },
 {
 "clip": "SUNRISE-WATER2",
-"first": 241.73,
-"tc": "4:01.73",
+"first": 243.17,
+"tc": "4:03.17",
 "uses": 1,
-"secs": 5.8
+"secs": 4.3
 }
 ]

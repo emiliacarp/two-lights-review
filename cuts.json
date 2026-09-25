@@ -1034,18 +1034,38 @@
 "clip": "SUNRISE-RIG",
 "at": 235.97,
 "tc": "3:55.97",
-"bars": 2.0,
-"secs": 5.76,
+"bars": 1.0,
+"secs": 2.88,
 "ss": 0.3,
 "section": "OUTRO \u2014 the helipad, the money"
 },
 {
 "i": 104,
+"clip": "HOME-05-hd",
+"at": 238.85,
+"tc": "3:58.85",
+"bars": 0.75,
+"secs": 2.16,
+"ss": 6.3,
+"section": "finale \u2014 two lights under the stars"
+},
+{
+"i": 105,
+"clip": "HOME-04-hd",
+"at": 241.01,
+"tc": "4:01.01",
+"bars": 0.75,
+"secs": 2.16,
+"ss": 7.8,
+"section": "finale \u2014 two lights under the stars"
+},
+{
+"i": 106,
 "clip": "SUNRISE-WATER2",
-"at": 241.73,
-"tc": "4:01.73",
-"bars": 2.0,
-"secs": 5.76,
+"at": 243.17,
+"tc": "4:03.17",
+"bars": 1.5,
+"secs": 4.32,
 "ss": 0.15,
 "section": "finale \u2014 two lights under the stars"
 }
