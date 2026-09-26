@@ -46,56 +46,56 @@
 "first": 17.27,
 "tc": "0:17.27",
 "uses": 1,
-"secs": 4.3
+"secs": 3.6
 },
 {
 "clip": "BOAT2",
-"first": 21.58,
-"tc": "0:21.58",
+"first": 20.86,
+"tc": "0:20.86",
 "uses": 1,
-"secs": 4.3
+"secs": 5.0
 },
 {
 "clip": "RIG-WIDE-02",
 "first": 25.9,
 "tc": "0:25.90",
 "uses": 2,
-"secs": 7.2
+"secs": 6.5
 },
 {
 "clip": "HELI-02",
-"first": 30.22,
-"tc": "0:30.22",
+"first": 29.5,
+"tc": "0:29.50",
 "uses": 1,
-"secs": 4.3
+"secs": 5.0
 },
 {
-"clip": "HER-DECK-u32ad-hd",
+"clip": "RIG-WIDE-04",
 "first": 34.53,
 "tc": "0:34.53",
 "uses": 2,
-"secs": 5.8
+"secs": 8.0
 },
 {
 "clip": "DETAIL-04",
-"first": 37.41,
-"tc": "0:37.41",
+"first": 36.69,
+"tc": "0:36.69",
 "uses": 2,
-"secs": 4.3
+"secs": 5.0
 },
 {
 "clip": "HIM-DECK-02-hd",
 "first": 40.29,
 "tc": "0:40.29",
 "uses": 2,
-"secs": 4.3
+"secs": 5.0
 },
 {
-"clip": "RIG-WIDE-04",
-"first": 43.17,
-"tc": "0:43.17",
+"clip": "HER-DECK-u32ad-hd",
+"first": 43.88,
+"tc": "0:43.88",
 "uses": 2,
-"secs": 8.7
+"secs": 5.1
 },
 {
 "clip": "HIM-DECK-03-hd",
@@ -154,7 +154,7 @@
 "secs": 1.4
 },
 {
-"clip": "HIM-DECK-10j-hd",
+"clip": "WATER-07-hd",
 "first": 63.31,
 "tc": "1:03.31",
 "uses": 1,
@@ -175,7 +175,7 @@
 "secs": 1.4
 },
 {
-"clip": "WATER-07-hd",
+"clip": "HIM-DECK-10j-hd",
 "first": 69.06,
 "tc": "1:09.06",
 "uses": 1,
@@ -252,14 +252,14 @@
 "secs": 2.9
 },
 {
-"clip": "HER-DECK-u0292-hd",
+"clip": "RIG-WIDE-06-hd",
 "first": 96.4,
 "tc": "1:36.40",
 "uses": 1,
 "secs": 3.6
 },
 {
-"clip": "RIG-WIDE-06-hd",
+"clip": "HER-DECK-u0292-hd",
 "first": 100.0,
 "tc": "1:40.00",
 "uses": 1,
@@ -273,7 +273,7 @@
 "secs": 1.4
 },
 {
-"clip": "HER-DECK-u1860-hd",
+"clip": "DETAIL-uba9c-hd",
 "first": 105.04,
 "tc": "1:45.04",
 "uses": 1,
@@ -364,7 +364,7 @@
 "secs": 1.4
 },
 {
-"clip": "DETAIL-uba9c-hd",
+"clip": "HER-DECK-u1860-hd",
 "first": 128.06,
 "tc": "2:08.06",
 "uses": 1,
@@ -431,17 +431,17 @@
 "first": 151.08,
 "tc": "2:31.08",
 "uses": 1,
-"secs": 1.4
+"secs": 0.7
 },
 {
 "clip": "HER-DECK-ud065-hd",
-"first": 152.52,
-"tc": "2:32.52",
+"first": 151.8,
+"tc": "2:31.80",
 "uses": 1,
-"secs": 1.4
+"secs": 2.2
 },
 {
-"clip": "STORM-u3392-hd",
+"clip": "HIM-DECK-14-hd over HIM-DECK-uefdb-hd",
 "first": 153.96,
 "tc": "2:33.96",
 "uses": 1,
@@ -452,14 +452,14 @@
 "first": 155.4,
 "tc": "2:35.40",
 "uses": 1,
-"secs": 1.4
+"secs": 0.7
 },
 {
 "clip": "RIG-WIDE-u93b1-hd",
-"first": 156.83,
-"tc": "2:36.83",
+"first": 156.12,
+"tc": "2:36.12",
 "uses": 1,
-"secs": 1.4
+"secs": 2.2
 },
 {
 "clip": "HIM-DECK-14-hd over STORM-03-hd",
@@ -469,7 +469,7 @@
 "secs": 1.4
 },
 {
-"clip": "HIM-DECK-14-hd over HIM-DECK-uefdb-hd",
+"clip": "STORM-u3392-hd",
 "first": 159.71,
 "tc": "2:39.71",
 "uses": 1,
@@ -480,28 +480,28 @@
 "first": 161.15,
 "tc": "2:41.15",
 "uses": 1,
-"secs": 1.4
+"secs": 0.7
 },
 {
 "clip": "WATER-11-hd",
-"first": 162.59,
-"tc": "2:42.59",
+"first": 161.87,
+"tc": "2:41.87",
 "uses": 1,
-"secs": 1.4
+"secs": 2.2
 },
 {
 "clip": "RIG-WIDE-01",
 "first": 165.47,
 "tc": "2:45.47",
 "uses": 1,
-"secs": 1.4
+"secs": 2.2
 },
 {
 "clip": "STORM-uc5cc-hd",
-"first": 166.91,
-"tc": "2:46.91",
+"first": 167.63,
+"tc": "2:47.63",
 "uses": 1,
-"secs": 1.4
+"secs": 0.7
 },
 {
 "clip": "HIM-DECK-16-hd",
@@ -511,7 +511,7 @@
 "secs": 1.4
 },
 {
-"clip": "HER-DECK-07-hd",
+"clip": "WATER-14-hd",
 "first": 176.98,
 "tc": "2:56.98",
 "uses": 1,
@@ -623,7 +623,7 @@
 "secs": 1.4
 },
 {
-"clip": "WATER-14-hd",
+"clip": "HER-DECK-07-hd",
 "first": 208.63,
 "tc": "3:28.63",
 "uses": 1,
@@ -655,38 +655,38 @@
 "first": 215.83,
 "tc": "3:35.83",
 "uses": 2,
-"secs": 7.2
+"secs": 6.5
 },
 {
 "clip": "HOME-03-b-hd",
-"first": 220.86,
-"tc": "3:40.86",
+"first": 220.14,
+"tc": "3:40.14",
 "uses": 1,
-"secs": 5.0
+"secs": 5.8
 },
 {
 "clip": "HOME-04-hd",
 "first": 225.9,
 "tc": "3:45.90",
 "uses": 2,
-"secs": 7.2
+"secs": 6.5
 },
 {
 "clip": "SUNRISE-HELI",
-"first": 230.94,
-"tc": "3:50.94",
+"first": 230.22,
+"tc": "3:50.22",
 "uses": 1,
-"secs": 5.0
+"secs": 5.8
 },
 {
-"clip": "SUNRISE-RIG",
+"clip": "SUNRISE-WATER2",
 "first": 235.97,
 "tc": "3:55.97",
 "uses": 1,
 "secs": 2.9
 },
 {
-"clip": "SUNRISE-WATER2",
+"clip": "SUNRISE-RIG",
 "first": 243.17,
 "tc": "4:03.17",
 "uses": 1,
